@@ -11,14 +11,13 @@
 class VirusTotal
 {
 	protected $_APIKEY;
-	private $_HOST_URLSCAN 			= 'https://www.virustotal.com/vtapi/v2/url/scan';
-	private $_HOST_FILESCAN 		= 'https://www.virustotal.com/vtapi/v2/file/scan';
+	private $_HOST_URLSCAN 		= 'https://www.virustotal.com/vtapi/v2/url/scan';
+	private $_HOST_FILESCAN 	= 'https://www.virustotal.com/vtapi/v2/file/scan';
 	private $_HOST_URLSCAN_REPORT 	= 'https://www.virustotal.com/vtapi/v2/url/report';
 	private $_HOST_FILESCAN_REPORT 	= 'https://www.virustotal.com/vtapi/v2/file/report';
 	protected $_SSL_VERIFY;
 
-	function __construct()
-	{
+	function __construct() {
 		$this->_SSL_VERIFY = False; // Default set False
 	}
 	public function setApiKey($key) {
