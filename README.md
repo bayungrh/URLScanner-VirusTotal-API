@@ -13,4 +13,4 @@ Set Api Key :
 - $virustotal-setApiKey('YOUR_API_KEY');
 
 # Api-Key
-Join VirusTotal community to get API KEY
+Join VirusTotal community to get API KEY https://virustotal.com/en/documentation/#dlg-join
