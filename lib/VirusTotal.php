@@ -4,8 +4,8 @@
 * API from: VirusTotal.com
 * Author: MuhBayu
 * Website: 
-* - http://bayuu.net
-* - http://girhub.com/MuhBayu
+* - https://bayyu.net
+* - https://github.com/MuhBayu
 */
 
 class VirusTotal
